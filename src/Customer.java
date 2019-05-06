@@ -35,6 +35,8 @@ class Customer {
             totalCost += rentalPrice;
         }
         //add footer lines
+        assert(totalCost>=0);
+        assert(frequentRenterPoints>=0);
         resultStatement += "Amount owed is " + String.valueOf(totalCost) + "\n";
         resultStatement += "You earned " + String.valueOf(frequentRenterPoints) + " frequent renter points";
         return resultStatement;
@@ -42,6 +44,7 @@ class Customer {
 
     public double amountFor(Rental rental) {
         double rentalPrice = 0;
+        assert (rental.getMovie().getPriceCode() < 0);
         switch(rental.getMovie().getPriceCode()) {
             case Movie.REGULAR:
                 rentalPrice += 2;
