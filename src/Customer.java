@@ -22,10 +22,9 @@ class Customer {
         resultStatement += "\t" + "Title" + "\t" + "\t" + "Days" + "\t" + "Amount" + "\n";
 
         while (customerRentals.hasMoreElements()) {
-            double rentalPrice = 0;
             Rental each = (Rental) customerRentals.nextElement();
             //determine amounts for each line
-            rentalPrice = amountFor(each);
+            double rentalPrice = amountFor(each);
             // add frequent renter points
             frequentRenterPoints ++;
             // add bonus for a two day new release rental
