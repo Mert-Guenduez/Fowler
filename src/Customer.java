@@ -38,8 +38,8 @@ class Customer {
         assert(totalCost>=0);
         assert(frequentRenterPoints>=0);
         resultStatement += "Amount owed is " + String.valueOf(totalCost) + "\n";
-        resultStatement += "You earned " + String.valueOf(frequentRenterPoints) + " frequent renter points";
-        return resultStatement;
+        return resultStatement += "You earned " + String.valueOf(frequentRenterPoints) + " frequent renter points";
+        //return resultStatement;
     }
 
     public double amountFor(Rental rental) {
