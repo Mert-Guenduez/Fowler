@@ -1,0 +1,9 @@
+---
+VM version: Aug  3 2016 18:20:31 - 81_REL - optU - windows amd64 - 6 - bas2:274212 (mixed mode)
+
+Time:2019-05-0621:16:49
+Pid: 3672
+Hostname: WDFN34222623A
+current dir: C:\Users\D070425\Desktop\DesktopHortschrank\KURSE\SOFTWARE ENGINEERING\Fowler
+---
+   :    [13008] 21:16:49 ***ERROR (:0): Java assert: "Use assertEquals(expected, actual, delta) to compare floating-point numbers" in org.junit.Assert.fail(Assert.java:88)

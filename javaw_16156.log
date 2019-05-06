@@ -1,0 +1,9 @@
+---
+VM version: Aug  3 2016 18:20:31 - 81_REL - optU - windows amd64 - 6 - bas2:274212 (mixed mode)
+
+Time:2019-05-0621:38:34
+Pid: 16156
+Hostname: WDFN34222623A
+current dir: C:\Users\D070425\Desktop\DesktopHortschrank\KURSE\SOFTWARE ENGINEERING\Fowler
+---
+   :    [20476] 21:38:34 ***ERROR (:0): Java assert: "expected: null<null> but was: null<null>" in org.junit.Assert.assertEquals(Assert.java:115)
